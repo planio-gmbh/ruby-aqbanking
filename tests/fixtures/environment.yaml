@@ -1,0 +1,3 @@
+aqhbci_tool: aqhbci-tool4
+#aqhbci_tool: /path/to/aqbankng/bin/aqhbci-tool4
+aqbanking_cli: /path/to/aqbankng/bin/aqbanking-cli

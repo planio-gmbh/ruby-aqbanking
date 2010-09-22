@@ -1,0 +1,27 @@
+business:
+  bank_code: 11111111
+  user_id: 22222222
+  customer_id: 33333333
+  account_id: 77777777
+  user_name: Dagobert Duck
+  server_url: https://my.bank.de
+  hbci_version: 220
+  pin: secret
+private:
+  bank_code: 44444444
+  user_id: 55555555
+  customer_id: 66666666
+  account_id: 88888888
+  user_name: Donald Duck
+  server_url: https://your.bank.de
+  hbci_version: 300
+
+manuel:
+  bank_code: 13070024
+  user_id: 707353189400
+  account_id: 353189400
+  customer_id: 70703531894
+  user_name: Manuel Kniep
+  server_url: https://fints.deutsche-bank.de
+  hbci_version: 220
+  pin: Sibi2
