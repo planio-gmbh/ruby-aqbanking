@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0307d3e8-81e9-4098-b936-93a260fd1310" name="Default" comment="" />
+    <list default="true" id="0307d3e8-81e9-4098-b936-93a260fd1310" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/aq_banking.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/aq_banking/account.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/aq_banking/request.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/environment.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test_account.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test_request.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bckpin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/.~lock.test.csv#" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/test.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/aq_ruby.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/aqruby/account.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/aqruby/money.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/aqruby/request.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.cvs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/account_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/aq_ruby_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/fixtures/environment.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/request_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/test_helper.rb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/aqruby/transaction.rb" afterPath="$PROJECT_DIR$/lib/aq_banking/transaction.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/fixtures/accounts.yaml" afterPath="$PROJECT_DIR$/test/fixtures/accounts.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/accounts.yaml" afterPath="$PROJECT_DIR$/config/accounts.yaml" />
+    </list>
     <ignored path="aq-ruby.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,46 +54,28 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" highlightNonProjectFiles="true" nonProjectFilesColor="ffffe4" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="aq_ruby.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/aq_ruby.rb">
+      <file leaf-file-name="test_request.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_request.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="7" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
+            <state line="11" column="4" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aq_ruby_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/aq_ruby_test.rb">
+      <file leaf-file-name="commander.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/aq_banking/commander.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="22" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/aqruby/account.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="17" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="money.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/aqruby/money.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="38" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+            <state line="79" column="0" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="transaction.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/aqruby/transaction.rb">
+        <entry file="file://$PROJECT_DIR$/lib/aq_banking/transaction.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+            <state line="4" column="95" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,43 +84,52 @@
       <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/account_test.rb">
+      <file leaf-file-name="account.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/aq_banking/account.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="51" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+            <state line="29" column="61" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="request.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/aqruby/request.rb">
+      <file leaf-file-name="test_account.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_account.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="8" selection-start="377" selection-end="437" vertical-scroll-proportion="0.13592233">
+            <state line="39" column="5" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="request_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/request_test.rb">
+      <file leaf-file-name="aq_banking.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/aq_banking.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="4" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0">
+            <state line="4" column="53" selection-start="273" selection-end="273" vertical-scroll-proportion="0.07606973">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="accounts.yaml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/fixtures/accounts.yaml">
+      <file leaf-file-name="test_commander.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_commander.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="23" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+            <state line="47" column="0" selection-start="1863" selection-end="1863" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="13" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,25 +142,49 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Branch.Configurations">
+    <option name="CURRENT" value="master" />
+    <option name="CONFIGURATIONS">
+      <array>
+        <BranchConfiguration>
+          <option name="IS_AUTO_DETECTED" value="true" />
+          <option name="NAME" value="master" />
+          <option name="BRANCHES">
+            <array>
+              <BranchInfo>
+                <option name="ROOT" value="$PROJECT_DIR$" />
+                <option name="REFERENCE" value="master" />
+              </BranchInfo>
+            </array>
+          </option>
+        </BranchConfiguration>
+      </array>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="GIT_EXECUTABLE" value="/opt/local/bin/git" />
+    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
+    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/tasks/aq_ruby_tasks.rb.rake" />
-        <option value="$PROJECT_DIR$/config/environment.yaml" />
-        <option value="$PROJECT_DIR$/config/accounts.yaml" />
-        <option value="$PROJECT_DIR$/lib/request/request.rb" />
-        <option value="$PROJECT_DIR$/tests/test_helper.rb" />
-        <option value="$PROJECT_DIR$/tests/fixtures/environment.yaml" />
-        <option value="$PROJECT_DIR$/tests/aq_ruby_test.rb" />
-        <option value="$PROJECT_DIR$/tests/fixtures/accounts.yaml" />
-        <option value="$PROJECT_DIR$/tests/account_test.rb" />
-        <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/tests/money_test.rb" />
         <option value="$PROJECT_DIR$/lib/aqruby/money.rb" />
+        <option value="$PROJECT_DIR$/tests/test_helper.rb" />
         <option value="$PROJECT_DIR$/lib/aq_ruby.rb" />
-        <option value="$PROJECT_DIR$/lib/aqruby/account.rb" />
-        <option value="$PROJECT_DIR$/tests/request_test.rb" />
-        <option value="$PROJECT_DIR$/lib/aqruby/transaction.rb" />
+        <option value="$PROJECT_DIR$/lib/aqruby/commander.rb" />
+        <option value="$PROJECT_DIR$/config/accounts.yaml" />
         <option value="$PROJECT_DIR$/lib/aqruby/request.rb" />
+        <option value="$PROJECT_DIR$/tests/request_test.rb" />
+        <option value="$PROJECT_DIR$/tests/account_test.rb" />
+        <option value="$PROJECT_DIR$/lib/aqruby/account.rb" />
+        <option value="$PROJECT_DIR$/lib/aqruby/transaction.rb" />
+        <option value="$PROJECT_DIR$/test/test_account.rb" />
+        <option value="$PROJECT_DIR$/test/test_commander.rb" />
+        <option value="$PROJECT_DIR$/test/test_aq_ruby.rb" />
+        <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/lib/aq_banking.rb" />
       </list>
     </option>
   </component>
@@ -169,7 +214,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,7 +243,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,7 +257,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -266,7 +311,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aqruby" />
+              <option name="myItemId" value="aq_banking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,7 +331,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="RunManager">
@@ -302,6 +347,26 @@
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_CLASS_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="INHERITANCE_CHECK_DISABLED" VALUE="false" />
       <method />
     </configuration>
     <list size="0" />
@@ -325,6 +390,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="0307d3e8-81e9-4098-b936-93a260fd1310" name="Default" comment="" />
       <created>1285077295259</created>
       <updated>1285077295259</updated>
     </task>
@@ -351,24 +417,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.49558824" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.49411765" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.104411766" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.32647058" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6632353" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -403,114 +470,100 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/tasks/aq_ruby_tasks.rb.rake">
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs19/my_active_record.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
+        <state line="8" column="14" selection-start="166" selection-end="166" vertical-scroll-proportion="0.23587224">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs19/module.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="689" column="8" selection-start="20963" selection-end="20963" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.yaml">
+    <entry file="file://$PROJECT_DIR$/test/fixtures/accounts.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/fixtures/environment.yaml">
+    <entry file="file://$PROJECT_DIR$/test/fixtures/environment.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="48" selection-end="61" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/accounts.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="194" selection-end="356" vertical-scroll-proportion="0.0">
+        <state line="2" column="23" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/aq_ruby_test.rb">
+    <entry file="file://$PROJECT_DIR$/lib/aq_banking/request.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+        <state line="41" column="6" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/fixtures/accounts.yaml">
+    <entry file="file://$PROJECT_DIR$/test/test_request.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+        <state line="11" column="4" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/account_test.rb">
+    <entry file="file://$PROJECT_DIR$/lib/aq_banking/commander.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="51" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+        <state line="79" column="0" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/aq_banking/account.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="61" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/aq_banking/transaction.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="95" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_commander.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1863" selection-end="1863" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_account.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="5" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/aqruby/money.rb">
+    <entry file="file://$PROJECT_DIR$/lib/aq_banking.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="38" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/aq_ruby.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="7" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/request_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="4" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/aqruby/account.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="17" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/aqruby/transaction.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/aqruby/request.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="377" selection-end="437" vertical-scroll-proportion="0.13592233">
+        <state line="4" column="53" selection-start="273" selection-end="273" vertical-scroll-proportion="0.07606973">
           <folding />
         </state>
       </provider>

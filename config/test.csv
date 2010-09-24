@@ -1,7 +1,0 @@
-"transactionId";"localBankCode";"localAccountNumber";"remoteBankCode";"remoteAccountNumber";"date";"valutadate";"value_value";"value_currency";"localName";"remoteName";"remoteName1";"purpose";"purpose1";"purpose2";"purpose3";"purpose4";"purpose5";"purpose6";"purpose7";"purpose8";"purpose9";"purpose10";"purpose11";"category";"category1";"category2";"category3";"category4";"category5";"category6";"category7"
-;12345;678910;;;25.03.10;25.03.10;"15.00";"EUR";"Duck, Dagobert";"Duck, Donald";;"Consulting";"Entenhausen";;;;;;;;;;;;;;;;;;
-;12345;678910;;;29.03.10;29.03.10;"-33.74";"EUR";"Duck, Dagobert";;;"ELV61301152 26.03 20.45 ME8";"DAISYS PARADISE THANKS";5090982;;;;;;;;;;;;;;;;;
-;12345;678910;;;30.03.10;30.03.10;"-39.99";"EUR";"Duck, Dagobert";;;;;;;;;;;;;;;;;;;;;;
-;12345;678910;;;31.03.10;31.03.10;"-9.11";"EUR";"Duck, Dagobert";;;;;;;;;;;;;;;;;;;;;;
-;12345;678910;;;31.03.10;31.03.10;"-13.47";"EUR";"Duck, Dagobert";;;;;;;;;;;;;;;;;;;;;;
-;12345;678910;;;01.04.10;01.04.10;"-26.01";"EUR";"Duck, Dagobert";;;;;;;;;;;;;;;;;;;;;;
