@@ -10,7 +10,7 @@ end
 
 namespace :aqbanking do
   desc "Prepares the local system for aqbanking"
-  task :create_accounts do
+  task :setup do
     AqBanking::Account::ACCOUNTS.each do |k, v|
       AqBanking.add_account(k)
     end

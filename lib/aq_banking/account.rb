@@ -7,6 +7,7 @@ module AqBanking
 
 
     def initialize(account=nil)
+      @hbci_version = 220
       if account.is_a?(String)
         account = ACCOUNTS[account]
       end
