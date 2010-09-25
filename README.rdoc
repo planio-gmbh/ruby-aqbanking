@@ -18,7 +18,7 @@
    configured the correct shell command in config/environment.yaml
  * configure all accounts in config/accounts.yaml (use config/accounts_example.yaml as template)
  * run rake aqbanking:setup once to prepare your system for your configured accounts
- * run rake aqbaning:cleanup to delete all configured account from your local system
+ * run rake aqbanking:cleanup to delete all configured account from your local system
  * use account tags names as configured in config/accounts.yaml to create new account objects
    Account.new("my_account")
 
@@ -26,8 +26,8 @@
 
  * Request all transactions from 2010/01/01 to 2010/05/30
 
- my_business_account = Account.new("business")
- my_business_account.transactions(Date.new(2010,1,1),Date.new(2010,5,30)
+ my_business_account = AqBanking::Account.new("business")
+ my_business_account.transactions(Date.new(2010,1,1),Date.new(2010,5,30))
 
  * returns an array of AqBanking::Transaction Objects
 

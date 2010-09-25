@@ -1,10 +1,10 @@
 business:
-  bank_code: 11111111
-  user_id: 22222222
-  customer_id: 33333333
-  account_id: 77777777
+  bank_code: 11111111            # Deutsche Bank Berlin: <Bankleitzahl>
+  user_id: 22222222              # Deutsche Bank Berlin: <Filialnr.><Kontonr.><Unterkontonr. (z.B. 00)>
+  customer_id: 33333333          # Deutsche Bank Berlin: <Filialnr.><Kontonr.>
+  account_id: 77777777           # Deutsche Bank Berlin: <Kontonr.><Unterkontonr. (z.B. 00)>
   user_name: Dagobert Duck
-  server_url: https://my.bank.de
+  server_url: https://my.bank.de # Deutsche Bank Berlin: https://fints.deutsche-bank.de
   hbci_version: 220
   pin: secret
 private:
